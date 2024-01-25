@@ -1,0 +1,68 @@
+.userlist{
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 20px;
+    height: 310px;
+    background-color: var(--white);
+    box-sizing: border-box;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.userlist-header h4{
+    font-family: var(--primary-font);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.user-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+
+.user-wrapper:last-child{
+    border-bottom: none;
+}
+
+.user-images{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: bisque; 
+}
+
+.user-name{
+    width: 60%;
+}
+
+.user-name h5{
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.user-btns{
+    width: 20%;
+}
+
+.user-btns button{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 5px 0;
+    border-radius: 5px;
+    background-color: var(--blue);
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white);
+}
+.user-btns button:first-child{
+    background-color: var(--btn);
+    margin-bottom: 5px;
+}

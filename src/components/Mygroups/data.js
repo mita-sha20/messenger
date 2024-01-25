@@ -1,0 +1,27 @@
+// export const Mygroupsdata=[
+//     {
+//         image:"images/me.jpg",
+//         name:"Samiha",
+//         button:undefined,
+//     },
+//     {
+//         image:"/images/me.jpg",
+//         name:"Sojib",
+//         button:undefined,
+//     },
+//     {
+//         image:"/images/me.jpg",
+//         name:"Sanjana",
+//         button:undefined,
+//     },
+//     {
+//         image:"/images/me.jpg",
+//         name:"Ruma",
+//         button:undefined,
+//     },
+//     {
+//         image:"/images/me.jpg",
+//         name:"Rajdil",
+//         button:undefined,
+//     },
+// ];

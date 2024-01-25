@@ -1,0 +1,88 @@
+.box {
+    align-items: center !important;
+    height: 100vh !important;
+  }
+  
+  .registration .inputs {
+    width: 70% !important;
+    margin-bottom: 15px !important;
+  }
+  
+  .registration-left h3 {
+    font-family: var(--third-font);
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--title);
+    text-transform: capitalize;
+    margin-bottom: 8px;
+  }
+  
+  .registration-left span {
+    font-family: var(--third-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary-text-color);
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+  
+  .passord-box {
+    position: relative;
+  }
+  
+  .register-eyes {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .register-btn {
+    width: 70% !important;
+    padding: 15px 12px !important;
+    border-radius: 50px !important;
+    background-color: var(--blue) !important;
+    margin-top: 25px !important;
+  }
+  
+  .register_pic {
+    width: 100%;
+  }
+  
+  .loader {
+    margin-bottom: 0 !important;
+  }
+  
+  .register-account p {
+    font-family: var(--third-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--title);
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  
+  .register-account p a {
+    color: var(--red-orange);
+  }
+  
+.inputs input{
+  border-bottom:1px solid var(--border) !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  color: var(--text) !important;
+}
+
+.css-1u3bzj6-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--black) !important;
+}
+
+.css-wb57ya-MuiFormControl-root-MuiTextField-root {
+  color: var(--black) !important;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  color: var(--black) !important;
+}

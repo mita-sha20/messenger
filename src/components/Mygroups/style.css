@@ -1,0 +1,75 @@
+.my-groups{
+    width: 100%;
+    background-color: var(--white);
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 15px;
+    height: 380px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.mygroups-header h4{
+    margin-bottom: 20px;
+    font-family: var(--primary-font);
+    font-size: 17px;
+    font-weight: 600;
+    color:var(--black);
+}
+
+.mygroups-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+     padding-bottom: 5px;
+     align-items: center;
+}
+
+.mygroups-wrapper:last-child{
+    border-bottom: none;
+}
+
+.mygroups-images{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: bisque; 
+}
+
+.mygroups-name{
+    width: 60%;
+}
+
+.mygroups-name h5{
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.mygroups-btns{
+    width: 20%;
+}
+
+.mygroups-name span{
+    color: var(--black);
+}
+
+.mygroups-btns button{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 5px 0;
+    border-radius: 5px;
+    background-color: var(--blue);
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.mygroups-btns button:last-child{
+    background-color: var(--btn);
+    margin-top: 5px;
+}

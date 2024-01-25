@@ -1,0 +1,53 @@
+.root-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.root-images{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.root-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.root-names{
+    width: 60%;
+}
+
+.root-names h5{
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+
+.root-btns{
+    width: 20%;
+}
+
+.root-btns button{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 5px 0;
+    border-radius: 5px;
+    background-color: var(--blue);
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffffe4;
+}
+.root-btns button:first-child{
+    background-color: rgba(255, 0, 0, 0.687);
+    margin-bottom: 5px;
+}

@@ -1,0 +1,33 @@
+.search-wrapper{
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--white);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.10);
+    padding: 6px 13px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.search-icons{
+    width: 10%;
+}
+
+.search-icons svg{
+    width: 20px;
+    height: 18px;
+    margin-top: 5px;
+    color: var(--black);
+}
+
+.search-fill{
+    width: 90%;
+}
+
+.search-fill input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-family: var(--primary-font);
+    font-size: 16px;
+}

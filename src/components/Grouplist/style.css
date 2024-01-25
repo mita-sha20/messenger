@@ -1,0 +1,77 @@
+.grouplist{
+    width: 100%;
+    background-color: var(--white);
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    height: 270px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.grouplist-header{
+    font-family: var(--primary-font); 
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group-list-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.group-list-wrapper:last-child{
+    border-bottom: none;
+}
+
+.group-images{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: bisque;
+}
+
+.group-name{
+    width: 60%;
+}
+
+.group-name h5{
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.group-btns{
+    width: 20%;
+}
+
+.group-btns button{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 6px 0;
+    border-radius: 5px;
+    background-color: var(--blue);
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.inputs{
+    margin-top: 15px !important;
+}
+
+.create-btn{
+    background-color: var(--blue) !important;
+    color: aliceblue !important;
+    margin-top: 15px !important;
+}

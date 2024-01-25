@@ -1,0 +1,365 @@
+.chatting-box{
+    width: 100%;
+    height: 95vh;
+    background-color: blueviolet;
+    border-radius: 8px;
+    background-color: var(--white);
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+
+.active-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 30px;
+}
+
+.user-image{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.image::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color:#00FF75;
+    border: 3px solid #fff;
+}
+
+.info{
+    width: 80%;
+}
+
+.info h5{
+    font-family: var(--primary-font); 
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.info span{
+    font-family: var(--secondary-font); 
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.message{
+    padding: 20px 50px;
+    overflow-y: auto;
+    height:55vh;
+}
+
+.left-msg .left-txt{
+    background-color:#f1f1f1;
+    max-width: 400px;
+    display: inline-block;
+    padding: 14px 12px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.left-msg .left-txt::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: -9px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 20px 10px;
+    border-color: transparent transparent #f1f1f1 transparent;
+}
+
+.left-msg{
+    margin-bottom: 20px; 
+}
+
+.left-txt p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.left-msg span{
+    display: block;
+    font-size: 14px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.582);
+    margin-top: 8px;
+}
+
+.left-msg .left-img{
+    width: 400px;
+    overflow: hidden;
+}
+
+.left-msg .left-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+ 
+.right-msg .right-img{
+    width: 400px;
+    overflow: hidden;
+    margin-left: auto;
+}
+
+.right-msg .right-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.right-msg{
+    text-align: right;
+}
+
+.right-msg .right-txt{
+    background-color:var(--black);
+    max-width: 400px;
+    text-align: start;
+    display: inline-block;
+    padding: 14px 12px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.right-msg .right-txt::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: -9px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 20px 10px;
+    border-color: transparent transparent var(--black) transparent;
+}
+
+.right-msg{
+    margin-bottom: 20px; 
+}
+
+.right-txt p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.right-msg span{
+    display: block;
+    font-size: 14px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.582);
+    margin-top: 8px;
+}
+
+.txt-inputs{
+    padding: 20px 25px;
+    width: 80%;
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.msg-inputs{
+    border-top: 1px solid blueviolet;
+    padding-top: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.txt-inputs input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    padding: 15px 0;
+   
+}
+
+.txt-inputs .options{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00FF75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.more{
+    border-radius: 50px;
+    position: absolute;
+    top: -302px;
+    left: -20px;
+    width: 60px;
+    height: 300px;
+    background-color: brown;
+    box-sizing: border-box;
+    padding: 15px 0;
+}
+
+.msg-inputs button{
+    width: 15%;
+    height: 45px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.camera{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.camera svg{
+    width: 25px;
+    height: 25px;
+}
+
+.gal{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gal svg{
+    width: 25px;
+    height: 25px;
+}
+
+.voice{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.voice svg{
+    width: 25px;
+    height: 25px;
+}
+
+.capture-img{
+    position: absolute;
+    width: 100%;
+    background-color: #ffffffcc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.close{
+    width: 40px;
+    height: 40px;
+    background-color: #00FF75;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* .audio-recorder{
+   background-color: #ebebeb; 
+   box-shadow: 0 2px 5px #bebebe;
+   border-radius: 20px;
+   color: #0000;
+   width: 40px;
+   display: flex;
+   align-items: center;
+   transition: all .2s ease-in;
+   position: absolute;
+   top: 300px;
+   right: 65px;
+} */
+
+.recorder-btn{
+   position: absolute; 
+   top: 40%;
+   right: 200px;
+}
+
+.recording{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    padding: 15px;
+    width: 400px !important;
+}
+
+.audio-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.send-audio button{
+    font-size: 14px !important;
+    width: 70px !important;
+    padding: 10px 0;
+    margin: 0 8px;
+}
+
+.dlt-audio button{
+    font-size: 14px !important;
+    width: 70px !important;
+    padding: 10px 0;
+    margin: 0 8px;
+}
+
+.emoji{
+   width: 40px;
+   height: 40px;
+   background-color: #00FF75;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute; 
+   border-radius: 50%;
+   top: 0;
+   right: 35%;
+   cursor: pointer;
+   transform: translateY(43px);
+}
+
+.emoji-picker{
+   position: absolute; 
+   top: -420px;
+   right: 25%;
+}
+
+.con{
+    width: 300px;
+    height: 300px;
+}
